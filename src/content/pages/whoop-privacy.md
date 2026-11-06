@@ -2,7 +2,7 @@
 title: Privacy Policy for a Personal WHOOP Integration
 description: How the owner's personal WHOOP integration reads, uses, and stores sleep and workout data.
 ---
-Last updated: 2026-11-05
+Last updated: 2026-11-06
 
 This policy covers the personal WHOOP integration run by the owner of this website (“the App”). The owner is the App’s only user: it is not offered to anyone else, and only the owner’s WHOOP account is connected to it.
 
@@ -17,12 +17,14 @@ It also requests `offline` access, which gives it a refresh token so the owner d
 
 ## How the data is used
 
-On the owner’s Mac, once a day and whenever the owner records a week, the App turns these records into two weekly numbers:
+On the owner’s Mac, once a day and whenever the owner records a week, the App turns these records into four weekly numbers:
 
-- the number of days with at least 20 minutes of workouts, and
-- the average nightly sleep in hours, excluding naps.
+- the number of days with at least 20 minutes of workouts,
+- the average nightly sleep in hours, excluding naps,
+- the average bedtime, taken from the start time of each night’s sleep record, and
+- the average wake-up time, taken from the end time of each night’s sleep record.
 
-The records are processed in memory and are never written to disk. Only the two weekly numbers are kept.
+The records are processed in memory and are never written to disk. Only the four weekly numbers are kept.
 
 ## Where the weekly numbers are kept
 
